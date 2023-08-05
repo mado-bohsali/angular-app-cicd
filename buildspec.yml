@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14  # Use the appropriate Node.js version for your Angular project
+      nodejs: 18  # Use the appropriate Node.js version for your Angular project
     commands:
       - npm install -g @angular/cli
   pre_build:
